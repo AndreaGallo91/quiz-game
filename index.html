@@ -1,79 +1,13 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <!-- Schermata iniziale -->
-        <div id="start-screen" class="screen">
-            <h1>Quiz Game</h1>
-            <p>Metti alla prova le tue conoscenze!</p>
-            <div class="category-select">
-                <label for="category">Scegli una categoria:</label>
-                <select id="category">
-                    <option value="all">Tutte le categorie</option>
-                    <option value="scienza">Scienza</option>
-                    <option value="storia">Storia</option>
-                    <option value="geografia">Geografia</option>
-                    <option value="sport">Sport</option>
-                    <option value="cultura">Cultura Generale</option>
-                </select>
-            </div>
-            <button id="start-btn" class="btn btn-primary">Inizia il Quiz</button>
-        </div>
-
-        <!-- Schermata del quiz -->
-        <div id="quiz-screen" class="screen hidden">
-            <div class="quiz-header">
-                <div class="progress-bar">
-                    <div id="progress" class="progress"></div>
-                </div>
-                <div class="quiz-info">
-                    <span id="question-counter">Domanda 1/10</span>
-                    <span id="score">Punteggio: 0</span>
-                </div>
-            </div>
-            <div class="question-container">
-                <h2 id="question">Domanda placeholder</h2>
-                <div id="answers" class="answers-grid">
-                    <!-- Le risposte verranno inserite qui via JavaScript -->
-                </div>
-            </div>
-            <div class="quiz-footer">
-                <button id="next-btn" class="btn btn-secondary hidden">Prossima Domanda</button>
-            </div>
-        </div>
-
-        <!-- Schermata dei risultati -->
-        <div id="result-screen" class="screen hidden">
-            <h1>Quiz Completato!</h1>
-            <div class="result-container">
-                <div id="result-emoji" class="result-emoji"></div>
-                <p id="result-text" class="result-text"></p>
-                <div class="result-stats">
-                    <div class="stat">
-                        <span class="stat-value" id="correct-answers">0</span>
-                        <span class="stat-label">Risposte Corrette</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-value" id="wrong-answers">0</span>
-                        <span class="stat-label">Risposte Errate</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-value" id="final-score">0</span>
-                        <span class="stat-label">Punteggio Finale</span>
-                    </div>
-                </div>
-            </div>
-            <button id="restart-btn" class="btn btn-primary">Gioca Ancora</button>
-        </div>
-    </div>
-
-    <script src="questions.js"></script>
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space51 Quiz Game</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
