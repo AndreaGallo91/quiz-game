@@ -17,9 +17,9 @@ Un quiz game interattivo e moderno per testare le tue conoscenze su Cybersecurit
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="docs/screenshots/home.png" alt="Home Screen" width="250"/>
-  <img src="docs/screenshots/quiz.png" alt="Quiz Screen" width="250"/>
-  <img src="docs/screenshots/results.png" alt="Results Screen" width="250"/>
+  <img src="docs/screenshots/Home.png" alt="Home Screen" width="250"/>
+  <img src="docs/screenshots/Quiz.png" alt="Quiz Screen" width="250"/>
+  <img src="docs/screenshots/Results.png" alt="Results Screen" width="250"/>
 </div>
 
 > *Aggiungi i tuoi screenshot nella cartella `docs/screenshots/`*
