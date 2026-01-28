@@ -1,4 +1,4 @@
-# {Space51} Quiz Game 🚀
+# Space{51} Quiz Game 🚀
 
 Un quiz game interattivo e moderno per testare le tue conoscenze su Cybersecurity, Onboarding e Prodotto.
 
@@ -149,5 +149,5 @@ Questo progetto è open source e disponibile sotto la [MIT License](LICENSE).
 ---
 
 <div align="center">
-  <strong>{Space51}</strong> Quiz Game — Metti alla prova le tue conoscenze! 🎯
+  <strong>Space{51}</strong> Quiz Game — Metti alla prova le tue conoscenze! 🎯
 </div>
