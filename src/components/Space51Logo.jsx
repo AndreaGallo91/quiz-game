@@ -8,7 +8,9 @@ function Space51Logo({ size = 'large' }) {
   return (
     <div className={`font-bold ${sizeClasses[size]} tracking-tight`}>
       <span className="text-white">Space</span>
-      <span className="text-space-yellow">{`{51}`}</span>
+      <span className="text-space-yellow">{`{`}</span>
+      <span className="text-white">51</span>
+      <span className="text-space-yellow">{`}`}</span>
     </div>
   )
 }
